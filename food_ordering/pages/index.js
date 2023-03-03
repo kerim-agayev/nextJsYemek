@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Home from './home'
 // import styles from '@/styles/Home.module.css'
-
+import Header from "../components/layout/Header";
 
 
 export default function Index() {
@@ -14,6 +14,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
+      <Header />
   <Home/>
    
     </>
