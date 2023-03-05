@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import Campaigns from '@/components/Campaigns';
 import MenuWrapper from '@/components/MenuWrapper';
 import React from 'react'
@@ -9,6 +10,7 @@ function Home() {
     <Carousel />
     <Campaigns />
     <MenuWrapper />
+    <About />
   </div>
   );
  
