@@ -1,10 +1,12 @@
+import Campaigns from '@/components/Campaigns';
 import React from 'react'
 import Carousel from "../../components/Carousel";
 function Home() {
   return (
-    <div className="relative">
-      <Carousel />
-    </div>
+    <div>
+    <Carousel />
+    <Campaigns />
+  </div>
   );
  
 
