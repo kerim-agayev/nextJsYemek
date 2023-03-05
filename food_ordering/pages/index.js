@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Home from './home'
 // import styles from '@/styles/Home.module.css'
 import Header from "../components/layout/Header";
+import Input from '@/components/form/Input';
+
+
 
 
 export default function Index() {
@@ -15,7 +18,9 @@ export default function Index() {
        
       </Head>
       <Header />
-  <Home/>
+      <Home/>    
+  
+
    
     </>
   )

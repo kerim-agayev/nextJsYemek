@@ -3,7 +3,7 @@ import Campaigns from '@/components/Campaigns';
 import MenuWrapper from '@/components/MenuWrapper';
 import React from 'react'
 import Carousel from "../../components/Carousel";
-
+import Reservation from '../../components/Reservation'
 function Home() {
   return (
     <div>
@@ -11,6 +11,8 @@ function Home() {
     <Campaigns />
     <MenuWrapper />
     <About />
+    <Reservation />
+    
   </div>
   );
  
