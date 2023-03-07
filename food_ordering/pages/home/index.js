@@ -17,6 +17,7 @@ function Home() {
     <About />
     <Reservation />
     <Customers />
+
   </>
       // </React.Fragment>
   );
