@@ -32,7 +32,7 @@ const Carousel = () => {
             src="/images/hero-bg.jpg"
             alt=""
            fill
-            // objectFit="cover"
+           style={{objectFit:"cover"}}
           />
         </div>
       </div>

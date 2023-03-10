@@ -11,7 +11,7 @@ const CampaignItem = () => {
           alt=""
           fill
           className="hover:scale-105 transition-all"
-          // objectFit="cover"
+          style={{objectFit:"cover"}}
         />
       </div>
       <div className="text-white">

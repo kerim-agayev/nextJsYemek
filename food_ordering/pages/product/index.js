@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Title from "@/components/ui/Title";
-import { addProduct } from "../../redux/cartSlice";
+import { addProduct } from "../../redux/CARTSLICE";
 import { useDispatch, useSelector } from "react-redux";
 const itemsExtra = [
   {
@@ -76,7 +76,7 @@ const Index = () => {
   return (
      <div className="flex items-center md:h-[calc(100vh_-_88px)] gap-5 py-20 flex-wrap ">
       <div className="relative md:flex-1 md:w-[80%] md:h-[80%] w-36 h-36 mx-auto">
-        <Image src="/images/f1.png" alt="" fill objectFit="contain" />
+        <Image src="/images/f1.png" alt="" fill   style={{objectFit:"contain"}}/>
       </div>
       <div className="md:flex-1 md:text-start text-center">
         <Title addClass="text-6xl">Good Pizza</Title>

@@ -47,7 +47,7 @@ const Order = () => {
               alt=""
               width={40}
               height={40}
-              objectFit="contain"
+              style={{objectFit:"contain"}}
             />
             <span>Payment</span>
           </div>
@@ -57,7 +57,7 @@ const Order = () => {
               alt=""
               width={40}
               height={40}
-              objectFit="contain"
+              style={{objectFit:"contain"}}
             />
             <span>Preparing</span>
           </div>
@@ -67,7 +67,7 @@ const Order = () => {
               alt=""
               width={40}
               height={40}
-              objectFit="contain"
+              style={{objectFit:"contain"}}
             />
             <span>On the way</span>
           </div>
@@ -77,7 +77,7 @@ const Order = () => {
               alt=""
               width={40}
               height={40}
-              objectFit="contain"
+              style={{objectFit:"contain"}}
             />
             <span>Delivered</span>
           </div>
